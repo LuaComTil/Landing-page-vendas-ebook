@@ -1,0 +1,47 @@
+.venda {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte);
+}
+.venda__titulo {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+.venda__produto {
+    box-shadow: 0px 0px 16px black;
+    margin: 0 0 1rem 0;
+}
+.venda__texto {
+    font-size: 1.6rem;
+    margin: .5rem;
+}
+.venda__texto--destaque {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.venda__texto--descrição {
+    font-size: 1.2rem;
+}
+.venda__preco {
+    background-color: #535353;
+    border-radius: 32px;
+    box-shadow: inset 0 0 34px 4px #000000;
+    color: var(--rosa);
+    font-size: 5rem;
+    padding: 1rem;
+}
+.venda__botao {
+    background-color: #3A4370;
+    border-color: #EF0A63;
+    box-shadow: 0 0 32px 0;
+    color: #EF0A63;
+    font-size: 1.8rem;
+    margin: 1rem;
+    text-transform: uppercase;
+}
+@media screen and (min-width: 1024px) {
+    .venda__texto--descrição {
+        width: 40%; 
+    }
+}

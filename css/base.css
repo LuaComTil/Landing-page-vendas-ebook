@@ -1,0 +1,41 @@
+:root {
+    --bg: #F3F3F7;
+    --bg-rodape: #333;
+
+    --rosa: #EF0A63;
+    --branco: #FFF;
+    
+    --fonte: 'Montserrat', sans-serif;
+}
+.scratched-text {
+    text-decoration: line-through;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg);
+}
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+.zap {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+.botao {
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    max-width: 350px;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
