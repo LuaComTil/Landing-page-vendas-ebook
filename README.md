@@ -1,4 +1,4 @@
-[View Project](https://luacomtil.github.io/Responsive-eBook-Sale-Landing-Page/)
+[Ver projeto](https://luacomtil.github.io/Landing-page-vendas-ebook/)
 
 # Landing page de vendas responsiva
 
